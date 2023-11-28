@@ -1,16 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Noto+Sans+Kawi&family=Noto+Sans+TC&display=swap");
-
-* {
-  margin: 0px;
-  padding: 0px;
-  font-family: "IBM Plex Mono", monospace;
-}
-
-$color1: #ad343e;
-$color2: #e0e0ce;
-$color3: #f2af29;
-$color4: #474747;
-
+@import "vars&reset";
 @import "header";
 @import "footer";
 @import "pag-principal";
