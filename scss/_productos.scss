@@ -1,0 +1,19 @@
+.container {
+  margin-left: 1px;
+  margin-bottom: 10px;
+  .productos-desc {
+    margin-top: 10px;
+    text-align: center;
+    color: $color2;
+    background-color: $color1;
+    text-transform: uppercase;
+  }
+  .carousel {
+    border: 5px solid $color1;
+    padding: 10px;
+  }
+  .carousel-item img {
+    height: 200px;
+    width: 100%;
+  }
+}

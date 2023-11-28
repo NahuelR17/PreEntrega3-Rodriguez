@@ -1,0 +1,82 @@
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+  //Inicio Header - Footer
+  header {
+    .logo img {
+      margin: 20px;
+    }
+    h1 {
+      padding-left: 30px;
+      padding-top: 40px;
+      padding-bottom: 30px;
+      font-size: 40px;
+    }
+    .nav-op {
+      font-size: 15px;
+    }
+    .nav-item {
+      margin: 2px;
+    }
+  }
+  footer {
+    padding-top: 50px;
+    font-size: 20px;
+  }
+  .redes {
+    a {
+      font-size: 40px;
+    }
+  }
+  //Final Header - Footer
+
+  //Inicio pagina principal
+  .intro {
+    padding-top: 10px;
+    p {
+      font-size: 20px;
+    }
+  }
+  //Final pagina principal
+
+  //Inicio productos
+  .carousel {
+    width: 34%;
+  }
+  .container {
+    margin-top: 20px;
+    margin-left: 35px;
+  }
+  .productos-desc {
+    margin: 10px;
+  }
+  //Final productos
+
+  //Inicio sobre tortuga
+  .sobre {
+    h2 {
+      font-size: 40px;
+    }
+    p {
+      font-size: 25px;
+    }
+  }
+  .sobre:hover {
+    transform: scale(1.05);
+  }
+  //Final sobre tortuga
+
+  //Inicio FAQ
+  .pregu {
+    height: 470px;
+    text-align: left;
+    li {
+      font-size: 18px;
+    }
+  }
+  .pregu1 {
+    height: 350px;
+    p {
+      font-size: 18px;
+    }
+  }
+  //Final FAQ
+}

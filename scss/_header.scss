@@ -1,0 +1,41 @@
+header {
+  height: fit-content;
+  background-color: $color1;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  .logo img {
+    width: 100px;
+    height: 100px;
+  }
+  h1 {
+    text-transform: capitalize;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: $color2;
+    font-size: 20px;
+    text-align: center;
+  }
+  .nav-op {
+    text-decoration: none;
+    color: $color2;
+    text-transform: capitalize;
+    font-size: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .nav-op:hover {
+    color: $color3;
+  }
+  .navbar-toggler {
+    background-color: black;
+    font-size: 10px;
+  }
+  .nav-item {
+    background-color: black;
+    border: solid 1px $color2;
+    border-radius: 20%;
+    text-align: center;
+  }
+}

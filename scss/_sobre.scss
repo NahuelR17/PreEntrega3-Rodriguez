@@ -1,0 +1,20 @@
+.sobre {
+  margin: 50px;
+  margin-top: 80px;
+  border: 10px solid $color1;
+  background-image: radial-gradient(circle, $color1, $color3);
+  text-align: center;
+  font-weight: 800;
+  h2 {
+    padding-top: 10px;
+    font-size: 20px;
+  }
+  p {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+  }
+}
+.sobre:hover {
+  transform: scale(1.10);
+}

@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Noto+Sans+Kawi&family=Noto+Sans+TC&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+header {
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #ad343e;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+header .logo img {
+  width: 100px;
+  height: 100px;
+}
+header h1 {
+  text-transform: capitalize;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #e0e0ce;
+  font-size: 20px;
+  text-align: center;
+}
+header .nav-op {
+  text-decoration: none;
+  color: #e0e0ce;
+  text-transform: capitalize;
+  font-size: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+header .nav-op:hover {
+  color: #f2af29;
+}
+header .navbar-toggler {
+  background-color: black;
+  font-size: 10px;
+}
+header .nav-item {
+  background-color: black;
+  border: solid 1px #e0e0ce;
+  border-radius: 20%;
+  text-align: center;
+}
+
+footer {
+  padding: 15px;
+  text-align: center;
+  height: 150px;
+  background-color: #474747;
+  color: #e0e0ce;
+  font-size: 10px;
+  margin-top: auto;
+}
+
+.redes a {
+  color: #e0e0ce;
+  font-size: 30px;
+}
+
+.intro {
+  padding-top: 5px;
+  text-align: center;
+}
+
+video {
+  border-radius: 5%;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.container {
+  margin-left: 1px;
+  margin-bottom: 10px;
+}
+.container .productos-desc {
+  margin-top: 10px;
+  text-align: center;
+  color: #e0e0ce;
+  background-color: #ad343e;
+  text-transform: uppercase;
+}
+.container .carousel {
+  border: 5px solid #ad343e;
+  padding: 10px;
+}
+.container .carousel-item img {
+  height: 200px;
+  width: 100%;
+}
+
+.opinion {
+  background-image: radial-gradient(circle, #ad343e, #f2af29);
+  text-align: center;
+  font-weight: 800;
+  text-align: center;
+}
+.opinion h3 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.opinion #enviar {
+  margin-bottom: 10px;
+}
+
+.sobre {
+  margin: 50px;
+  margin-top: 80px;
+  border: 10px solid #ad343e;
+  background-image: radial-gradient(circle, #ad343e, #f2af29);
+  text-align: center;
+  font-weight: 800;
+}
+.sobre h2 {
+  padding-top: 10px;
+  font-size: 20px;
+}
+.sobre p {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 15px;
+}
+
+.sobre:hover {
+  transform: scale(1.1);
+}
+
+section {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: space-evenly;
+}
+
+.pregu {
+  width: 40%;
+  height: 300px;
+  border: 5px solid #ad343e;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  background-color: #ad343e;
+}
+.pregu h2 {
+  text-align: center;
+  color: #f2af29;
+  background-color: #474747;
+  font-size: 20px;
+}
+.pregu a {
+  color: black;
+}
+.pregu a:hover {
+  color: #f2af29;
+  text-transform: uppercase;
+}
+.pregu li {
+  padding-right: 8px;
+  font-size: 9px;
+  font-weight: 700;
+}
+
+.pregu:hover {
+  transform: scale(1.05);
+}
+
+.pregu1 {
+  width: 40%;
+  height: 190px;
+  border: 5px solid #ad343e;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  text-align: center;
+  background-color: #ad343e;
+}
+.pregu1 h2 {
+  color: #f2af29;
+  background-color: #474747;
+  font-size: 20px;
+}
+.pregu1 p {
+  font-weight: 700;
+}
+
+.pregu1:hover {
+  transform: scale(1.05);
+}
+
+.enc {
+  background-image: url(../multimedia/Entrega.jpg);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.dem {
+  background-image: url(../multimedia/demora.jpg);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 571px) {
+  header .logo img {
+    margin-top: 10px;
+    padding-bottom: 5px;
+    width: 80px;
+    height: 80px;
+  }
+  header h1 {
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+  }
+  .pregu {
+    height: 450px;
+    text-align: left;
+  }
+  .pregu li {
+    font-size: 12px;
+  }
+  .pregu1 {
+    height: 220px;
+  }
+  .pregu1 p {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+  header .logo img {
+    margin: 20px;
+  }
+  header h1 {
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 40px;
+  }
+  header .nav-op {
+    font-size: 15px;
+  }
+  header .nav-item {
+    margin: 2px;
+  }
+  footer {
+    padding-top: 50px;
+    font-size: 20px;
+  }
+  .redes a {
+    font-size: 40px;
+  }
+  .intro {
+    padding-top: 10px;
+  }
+  .intro p {
+    font-size: 20px;
+  }
+  .carousel {
+    width: 34%;
+  }
+  .container {
+    margin-top: 20px;
+    margin-left: 35px;
+  }
+  .productos-desc {
+    margin: 10px;
+  }
+  .sobre h2 {
+    font-size: 40px;
+  }
+  .sobre p {
+    font-size: 25px;
+  }
+  .sobre:hover {
+    transform: scale(1.05);
+  }
+  .pregu {
+    height: 470px;
+    text-align: left;
+  }
+  .pregu li {
+    font-size: 18px;
+  }
+  .pregu1 {
+    height: 350px;
+  }
+  .pregu1 p {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 1441px) and (max-width: 1981px) {
+  header .logo img {
+    margin: 20px;
+  }
+  header h1 {
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 40px;
+  }
+  header .nav-op {
+    font-size: 15px;
+  }
+  header .nav-item {
+    margin: 2px;
+  }
+  .redes {
+    padding-top: 20px;
+  }
+  .redes a {
+    font-size: 50px;
+  }
+  .container {
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+  .productos-desc {
+    margin: 10px;
+  }
+  .carousel {
+    width: 34%;
+  }
+  .sobre:hover {
+    transform: scale(1.05);
+  }
+  .pregu {
+    height: 530px;
+  }
+  .pregu li {
+    font-size: 18px;
+    margin-left: 10px;
+    text-align: left;
+  }
+  .pregu1 {
+    height: 410px;
+  }
+}
+body {
+  background-color: #f2af29;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}/*# sourceMappingURL=estilos.css.map */
