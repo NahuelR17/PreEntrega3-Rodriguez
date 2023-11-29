@@ -105,7 +105,14 @@ video {
   padding-bottom: 5px;
 }
 .opinion #enviar {
+  margin-top: 10px;
   margin-bottom: 10px;
+}
+
+#formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .sobre {
